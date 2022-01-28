@@ -1,0 +1,2 @@
+Create new class with method main. In method main create and initialize all types of primitive variable.
+Print to console all initialized vars. The result should be like "It is an int variable and value is 5."
