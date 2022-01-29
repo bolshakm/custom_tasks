@@ -7,10 +7,10 @@ public class RunnerTask2 {
 	// * Define is number odd using method isEvenNumber.
 
 	public static void main(String[] args) {
-		System.out.println("One is eve and it is a " + isEvenNumber(1));
-		System.out.println("Two is eve and it is a " + isEvenNumber(2));
-		System.out.println("Three is eve and it is a " + isEvenNumber(3));
-		System.out.println("For is eve and it is a " + isEvenNumber(4));
+		System.out.println("One is even and it is a " + isEvenNumber(1));
+		System.out.println("Two is even and it is a " + isEvenNumber(2));
+		System.out.println("Three is even and it is a " + isEvenNumber(3));
+		System.out.println("For is even and it is a " + isEvenNumber(4));
 
 	}
 
