@@ -18,6 +18,26 @@ public class RunnerTask5 {
 	// avengers
 	// avengers
 
+	//todo. Додай реалізацію для методу printInNewLine. Метод повинен, використовуючи цикл "for", друкувати кожне слово з аргумету string в новому рядку.
+	// Можна використовувати топоміжні методи. Метод wordCount(String string) повертає кількість слів в рядку.
+	// наприклад: wordsCount("Custom text") поверне знаення 2
+	// Метод getWord(int wordNumber, String string) поверну слово під конкретним номером.
+	// Будь уважний до номерації слів у рядку вона починається з 0, а не з 1
+	// наприклад: getWord(0, "Custom text") -> Custom
+	// getWord(1, "Custom text") -> text
+	// *** Створи новий метод printInNewLine(int count, String string)
+	// Використовуючи цикл "for", надрукуй кожне слово в рядку, таку кількість разів яка вказана у змінній count
+	// наприклад:printInNewLine(3, "Strongest of avengers") ->
+	// Strongest
+	// Strongest
+	// Strongest
+	// of
+	// of
+	// of
+	// avengers
+	// avengers
+	// avengers
+
 	public static void main(String[] args) {
 
 	}

@@ -4,7 +4,12 @@ public class RunnerTask2 {
 	//todo. Add implementation for method isEvenNumber. Method should return true if number is even and false if isn't.
 	// * Implement method isOddNumber. Method should return true if number is odd and false if isn't.
 	// Test it like it was tested in isEvenNumber case.
-	// * Define is number odd using method isEvenNumber.
+	// ** Define is number odd using method isEvenNumber.
+
+	//todo Додати реалізацію для методу isEvenNumber. Метод повинен повертати true якщо число є парне та false, якщо ні.
+	// * Написати новий метод, який матеме назву isOddNumber. Метод повинен повертати true, якщо число є непарне та false, якщо парне.
+	// Додати перевірку нового метода(isOddNumber) аналогічну перевірці методу isEvenNumber.
+	// ** Використай метод isEvenNumber в методі isOddNumber для визначення парності числа.
 
 	public static void main(String[] args) {
 		System.out.println("One is even and it is a " + isEvenNumber(1));

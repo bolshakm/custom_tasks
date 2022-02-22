@@ -9,6 +9,14 @@ public class RunnerTask4 {
 	// custom text
 	// custom text
 	// ** extract boolean condition from loop to separate method (the name of new method should be shouldPrint)
+
+	//todo. Додати реалізацію для методу print. Метод повинен виводити на консоль значення стрінги яку передають в якості аргументів(string)
+	// таку кількість раз яка зазначена в аргументі count. Викорстай цикл while.
+	// приклад: print(3,"custom text") ->
+	// custom text
+	// custom text
+	// custom text
+	// ** винеси логіку визначення(умову з циклу while) чи повинен друкуватись метод в окремий метод (новий метод повинен мати назву shouldPrint)
 	public static void main(String[] args) {
 
 	}
