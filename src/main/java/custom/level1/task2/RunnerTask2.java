@@ -15,11 +15,24 @@ public class RunnerTask2 {
 		System.out.println("One is even and it is a " + isEvenNumber(1));
 		System.out.println("Two is even and it is a " + isEvenNumber(2));
 		System.out.println("Three is even and it is a " + isEvenNumber(3));
-		System.out.println("For is even and it is a " + isEvenNumber(4));
+		System.out.println("Four is even and it is a " + isEvenNumber(4));
+
+		System.out.println();
+
+		System.out.println("One is odd and it is a " + isOddNumber(1));
+		System.out.println("Two is odd and it is a " + isOddNumber(2));
+		System.out.println("Three is odd and it is a " + isOddNumber(3));
+		System.out.println("Four is odd and it is a " + isOddNumber(4));
 
 	}
 
 	private static boolean isEvenNumber(int number) {
-		return false;// change it during code implementation
+if(number%2==0) return true;
+else return false;
 	}
-}
+
+
+	private static boolean isOddNumber(int number) {
+		if (number % 2 == 0) return false;
+		else return true;
+	}}

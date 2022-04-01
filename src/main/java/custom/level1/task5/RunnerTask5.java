@@ -39,16 +39,25 @@ public class RunnerTask5 {
 	// avengers
 
 	public static void main(String[] args) {
+		printInNewLine("Hello\n my\n friend.\n");
+		wordsCount("Hello, my name is Anton.");
+		System.out.println(wordsCount("Hello, my name is Anton."));
+
 
 	}
 
 	private static void printInNewLine(String string){
+		System.out.println(string);
+
+
+
 
 	}
 
 	private static int wordsCount(String string){
-		String[] strings = string.split(" ");
+		String[] strings = string.split("Hello, my name is Anton");
 		return strings.length;
+
 	}
 
 	private static String getWord(int index, String string){

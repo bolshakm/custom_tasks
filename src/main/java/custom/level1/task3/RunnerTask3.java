@@ -17,10 +17,42 @@ public class RunnerTask3 {
 		String b = "hard test1";
 		String c = "lol";
 		String d = "fuck)";
+		RunnerTask3.defineStringType(a);
+		RunnerTask3.defineStringType(b);
+		RunnerTask3.defineStringType(c);
+		RunnerTask3.defineStringType(d);
+		System.out.println();
+
+		System.out.println(a + " is the " +  "string!");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+
+		compare("Toha","Antoha");
+
+
+
+
+
 
 	}
 
 	private static String defineStringType(String string){
-		return null;// change it during code implementation
+		System.out.println("Длина строки "+string +": " + string.length());
+		if(string.length()<5){
+			System.out.println("small");
+		}else if (string.length()>=5 & string.length()<=10) {
+			System.out.println("medium");
+		}else if(string.length()>10){
+			System.out.println("big");
+			};
+		return string;
+
+	}
+	static void compare(String s,String s2){
+		if(s.compareTo(s2)>0){
+			System.out.println("s<s2");
+		}else System.out.println("s>s2");
 	}
 }
+

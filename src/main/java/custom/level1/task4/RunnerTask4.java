@@ -18,10 +18,25 @@ public class RunnerTask4 {
 	// custom text
 	// ** винеси логіку визначення(умову з циклу while) чи повинен друкуватись метод в окремий метод (новий метод повинен мати назву shouldPrint)
 	public static void main(String[] args) {
+		print(10,"Anton");
+
+
+
 
 	}
 
 	private static void print(int count, String string){
+		System.out.print(count + " ");
+		System.out.println(string);
+		int x=0;
+		while(x<count){
+		System.out.println(string);
+		x++;}
+
+		}
+
+
+
 
 	}
-}
+
